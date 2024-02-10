@@ -1,0 +1,11 @@
+.scrollSection{
+    width: 100vw;
+    height: 100vh;
+
+    & h1{
+        padding: 20px;
+        font-family: 'consolas', sans-serif;
+        font-size: 60px;
+        display: inline-block;
+    }
+}
