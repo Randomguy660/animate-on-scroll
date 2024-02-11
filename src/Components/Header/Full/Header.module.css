@@ -7,9 +7,11 @@
     top: 0;
     height: 100px;
     background: linear-gradient(to right, hsl(242, 100%, 11%), hsl(242, 100%, 15%));
-    border: 1px solid hsl(242, 100%, 50%);
+    border: 3px solid pink;
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 9999999;
 }
+
+/*hsl(242, 100%, 50%)*/
