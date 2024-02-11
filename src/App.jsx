@@ -1,11 +1,11 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Home from './Components/Pages/Home/Home.jsx';
 import AnimateOnScroll from "./Components/Pages/animate-on-scroll/AnimateOnScroll.jsx";
 
 function App() {
   return(
-    <Router basename="/animate-on-scroll">
+    <Router>
       <Routes>
         <Route path='/' element={<Home />}/>
         <Route path='/home' element={<Home />}/>
