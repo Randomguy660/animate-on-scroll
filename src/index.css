@@ -2,7 +2,7 @@ body{
     width: 100vw;
     height: fit-content;
     background-color: black;
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 *{
     margin: 0;

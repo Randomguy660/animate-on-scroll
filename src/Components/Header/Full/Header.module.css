@@ -1,6 +1,7 @@
 /*! CSS Styling for the header element */
 /*! Header element at /src/Components/Header/Full/Header.jsx */
 .container{
+    box-sizing: border-box;
     width: 100%;
     position: sticky;
     top: 0;
