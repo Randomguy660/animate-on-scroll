@@ -1,24 +1,17 @@
-import ScrollSection from "./Components/ScrollSection/ScrollSection";
-import Header from "./Components/Header/Full/Header";
-import { useEffect } from "react";
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from './Components/Pages/Home/Home.jsx';
+import AnimateOnScroll from "./Components/Pages/animate-on-scroll/AnimateOnScroll.jsx";
 
 function App() {
-
-  useEffect(() => {
-    document.title = 'Animate On Scroll';
-  }, []);
-
-  return (
-    <>
-      <Header />
-      <ScrollSection title='Hello' colour='red' />
-      <ScrollSection title='This is' colour='blue' />
-      <ScrollSection title='Animating on scroll' colour='orange' />
-      <ScrollSection title='Its really easy' colour='yellow' />
-      <ScrollSection title='When using framer motion' colour='green' />
-      <ScrollSection title='Idk how to do it without it' colour='lime' />
-    </>
-  )
+  return(
+    <Router>
+      <Switch>
+        <Router exact path='/' component={Home}/>
+        <Router path='/home' component={Home}/>
+        <Router path='/animate-on-scroll' component={AnimateOnScroll}/>
+      </Switch>
+    </Router>
+  );
 }
-
 export default App
