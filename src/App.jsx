@@ -2,6 +2,8 @@ import ScrollSection from "./Components/ScrollSection/ScrollSection"
 
 function App() {
 
+  document.title = 'Animate on scroll';
+
   return (
     <>
       <ScrollSection title='Hello' colour='red' />
