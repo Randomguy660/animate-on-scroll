@@ -2,6 +2,9 @@ import styles from './ScrollSection.module.css';
 import { motion } from 'framer-motion';
 
 function ScrollSection({ title, colour }){
+
+    document.title = 'Animate on scroll';
+
     return(
         <div className={styles.scrollSection} style={{ backgroundColor: colour }}>
             <motion.h1
