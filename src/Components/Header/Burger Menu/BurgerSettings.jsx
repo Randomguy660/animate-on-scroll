@@ -16,20 +16,20 @@ function BurgerSettings(){
         await animateBurger('*', { y: '0%' }, { duration: transitionTime, ease: 'easeInOut' });
 
         animateBurger('span:nth-child(2)', { opacity: 0 }, { duration: 0 });
+        animateBurger('*', { width: '30px' }, { duration: transitionTime * 2, ease: 'easeInOut' });
         animateBurger('span:nth-child(1)', { x: '-47%' }, { duration: transitionTime, ease: 'easeInOut' });
         await animateBurger('span:nth-child(3)', { x: '47%' }, { duration: transitionTime, ease: 'easeInOut' });
 
         animateBurger('span:nth-child(1)', { rotate: '45deg' }, { duration: transitionTime, ease: 'easeInOut' });
         animateBurger('span:nth-child(3)', { rotate: '-45deg' }, { duration: transitionTime, ease: 'easeInOut' });
-        animateBurger('*', { width: '30px' }, { duration: transitionTime, ease: 'easeInOut' });
         await animateBurger('*', { y: '500%' }, {duration: transitionTime, ease: 'easeInOut' });
     }
 
     const closeBurger = async () => {
         animateBurger('*', { y: '0%' }, { duration: transitionTime, ease: 'easeInOut' });
-        animateBurger('*', { width: '60px' }, { duration: transitionTime, ease: 'easeInOut' });
         await animateBurger('*', { rotate: '0deg' }, { duration: transitionTime, ease: 'easeInOut' });
 
+        animateBurger('*', { width: '60px' }, { duration: transitionTime * 2, ease: 'easeInOut' });
         await animateBurger('*', { x: '0%' }, { duration: transitionTime, ease: 'easeInOut' });
 
         animateBurger('span:nth-child(2)', { opacity: 1 }, { duration: 0 });
