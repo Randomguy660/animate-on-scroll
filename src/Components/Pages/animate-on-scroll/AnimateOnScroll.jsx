@@ -1,5 +1,5 @@
-import ScrollSection from "./Components/ScrollSection/ScrollSection";
-import Header from "./Components/Header/Full/Header";
+import ScrollSection from "./Components/ScrollSection/ScrollSection.jsx";
+import Header from "./Components/Header/Full/Header.jsx";
 
 function AnimateOnScroll(){
     return (
