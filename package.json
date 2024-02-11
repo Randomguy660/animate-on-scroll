@@ -2,7 +2,7 @@
   "homepage": "https://Randomguy660.github.io/animate-on-scroll",
   "name": "animate-on-scroll",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
