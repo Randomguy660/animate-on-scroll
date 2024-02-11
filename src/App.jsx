@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <ScrollSection title='Hello' colour='gray' />
+      <ScrollSection title='Hello' colour='red' />
       <ScrollSection title='This is' colour='blue' />
       <ScrollSection title='Animating on scroll' colour='orange' />
       <ScrollSection title='Its really easy' colour='yellow' />
