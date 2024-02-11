@@ -1,8 +1,11 @@
-import ScrollSection from "./Components/ScrollSection/ScrollSection"
+import ScrollSection from "./Components/ScrollSection/ScrollSection";
+import { useEffect } from "react";
 
 function App() {
 
-  document.title = 'Animate on scroll';
+  useEffect(() => {
+    document.title = 'My Page Title';
+  }, []);
 
   return (
     <>
