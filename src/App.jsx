@@ -5,11 +5,11 @@ import AnimateOnScroll from "./Components/Pages/animate-on-scroll/AnimateOnScrol
 
 function App() {
   return(
-    <Router>
+    <Router basename="/animate-on-scroll">
       <Routes>
-        <Route exact path='/' component={Home}/>
-        <Route path='/home' component={Home}/>
-        <Route path='/animate-on-scroll' component={AnimateOnScroll}/>
+        <Route path='/' element={<Home />}/>
+        <Route path='/home' element={<Home />}/>
+        <Route path='/animate-on-scroll' element={<AnimateOnScroll />}/>
       </Routes>
     </Router>
   );
