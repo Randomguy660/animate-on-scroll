@@ -4,7 +4,7 @@ import { useEffect } from "react";
 function App() {
 
   useEffect(() => {
-    document.title = 'My Page Title';
+    document.title = 'Animate On Scroll';
   }, []);
 
   return (
