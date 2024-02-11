@@ -5,7 +5,7 @@ import AnimateOnScroll from "./Components/Pages/animate-on-scroll/AnimateOnScrol
 
 function App() {
   return(
-    <Home />
+    <AnimateOnScroll />
   );
 }
 export default App
