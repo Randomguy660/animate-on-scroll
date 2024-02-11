@@ -15,6 +15,8 @@ function App() {
       <ScrollSection title='Its really easy' colour='yellow' />
       <ScrollSection title='When using framer motion' colour='green' />
       <ScrollSection title='Idk how to do it without it' colour='lime' />
+      <ScrollSection title='Harrison Seymour-Smith' colour='white' />
+      <ScrollSection title='Is a fat bitch' colour='grey' />
     </>
   )
 }
