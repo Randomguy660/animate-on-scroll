@@ -1,6 +1,7 @@
 .scrollSection{
     width: 100vw;
     height: 100vh;
+    box-sizing: border-box;
 
     & h1{
         padding: 20px;
