@@ -7,9 +7,9 @@ function App() {
   return(
     <Router>
       <Switch>
-        <Router exact path='/' component={Home}/>
-        <Router path='/home' component={Home}/>
-        <Router path='/animate-on-scroll' component={AnimateOnScroll}/>
+        <Route exact path='/' component={Home}/>
+        <Route path='/home' component={Home}/>
+        <Route path='/animate-on-scroll' component={AnimateOnScroll}/>
       </Switch>
     </Router>
   );
