@@ -1,4 +1,5 @@
 import ScrollSection from "./Components/ScrollSection/ScrollSection";
+import Header from "./Components/Header/Full/Header";
 import { useEffect } from "react";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
 
   return (
     <>
+      <Header />
       <ScrollSection title='Hello' colour='red' />
       <ScrollSection title='This is' colour='blue' />
       <ScrollSection title='Animating on scroll' colour='orange' />

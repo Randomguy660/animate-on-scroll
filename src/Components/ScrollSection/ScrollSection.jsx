@@ -5,6 +5,7 @@ function ScrollSection({ title, colour }){
     return(
         <div className={styles.scrollSection} style={{ backgroundColor: colour }}>
             <motion.h1
+            className='noselect'
             initial={{
                 opacity: 0,
                 x: '-50px',
