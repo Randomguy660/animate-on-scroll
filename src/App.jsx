@@ -11,9 +11,9 @@ function App() {
     <>
       <Header />
       <Routes>
-        <Route path='/home' element={<Home />}/>
-        <Route path='/scroll' element={<AnimateOnScroll />}/>
-        <Route path='/' element={<Home />}/>
+        <Route path='/home' element={<Home />} />
+        <Route path='/scroll' element={<AnimateOnScroll />} />
+        <Route path='/' element={<Home />} />
         <Route path='*' element={<NotFoundError />} />
       </Routes>
     </>
