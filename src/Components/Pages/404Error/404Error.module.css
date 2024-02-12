@@ -1,0 +1,12 @@
+.container {
+    & a{
+        text-decoration: none;
+        color: lightgray;
+        cursor: pointer;
+    }
+
+    & *{
+        color: #fff;
+        font-family: 'consolas', sans-serif;
+    }
+}
