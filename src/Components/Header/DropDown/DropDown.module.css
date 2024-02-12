@@ -1,0 +1,11 @@
+.container{
+    width: 300px;
+    height: 400px;
+    border: 1px solid hsl(242, 100%, 50%);
+    border-radius: 10px;
+    background: rgb(3,0,102);
+    background: radial-gradient(circle, rgba(3,0,102,1) 0%, rgba(2,0,56,1) 100%);
+    position: absolute;
+    right: 0;
+    bottom: calc(100vh - 100px);
+}
