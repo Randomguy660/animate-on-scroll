@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const DropDownVariants = {
     closed: {
-        translateY: '-300px',
+        translateY: '-400px',
         opacity: 0,
         transition: {
             type: 'tween',

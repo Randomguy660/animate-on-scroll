@@ -4,6 +4,7 @@ import Home from './Components/Pages/Home/Home.jsx';
 import AnimateOnScroll from "./Components/Pages/animate-on-scroll/AnimateOnScroll.jsx";
 import Header from './Components/Header/Full/Header.jsx';
 import NotFoundError from "./Components/Pages/404Error/404Error.jsx";
+import DropDown from "./Components/Header/DropDown/DropDown.jsx";
 
 function App() {
   
